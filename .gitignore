@@ -1,0 +1,29 @@
+# Virtual environments
+ner_env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Dataset files (do not upload)
+dataset/*.csv
+dataset/*.train
+dataset/*.test
+dataset/*.valid
+
+# Embeddings (too large)
+src/embeddings/
+*.vec
+*.bin
+
+# Model checkpoints (too large)
+models/*.pth
+models/*.pt
+models/*.tar
+models/wikiann_pretrain/
+
+# Logs and temp
+*.log
+evaluation/temp/
+temp.py
