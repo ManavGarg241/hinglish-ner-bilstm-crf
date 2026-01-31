@@ -62,3 +62,4 @@ print(f"  Vocabulary: {len(word_counts)} words")
 print(f"  Dimension: {embedding_dim}")
 print("\nReady to train with embeddings:")
 print(f"  python src/train.py --name hinglish_ner --pre_emb {embedding_file}")
+
